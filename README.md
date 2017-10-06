@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Sunya Cluster Specifications
 
-You can use the [editor on GitHub](https://github.com/SUNYAHPC/Sunya-HPC-Cluster/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![image](https://i0.wp.com/sunya.rajagiritech.ac.in/wp-content/uploads/2017/06/clustre_Architecture.png?w=710)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+HPC Cluster has been set up with 1 Head Node, 1 Storage Node and 4 Computing Nodes.The specification for each node is given below:
 
-```markdown
-Syntax highlighted code block
+1. **Head Node (sNow Server)**
+- Processor - Intel Xeon Processor E5-2620 v4 (8 cores) * 2
+- RAM - 64 GB
+- HDD - 500 GB*2
+- Clock Speed - 2.1GHz
 
-# Header 1
-## Header 2
-### Header 3
+2. **Storage Node** 
+- Processor - Intel Xeon Processor E5-2620 v4 (8 cores) * 2
+- RAM - 64 GB
+- HDD - 800 GB
+- Storage - 5*2 TB
+- Clock Speed - 2.1GHz
 
-- Bulleted
-- List
+3. **Computing Node with GPU – 1 No**
+- Processor - Intel Xeon E5-2690 v4 (14 cores) * 2
+- RAM - 128 GB
+- HDD - 500 GB SSD
+- Clock Speed - 2.6 GHz
 
-1. Numbered
-2. List
+4. **Computing Nodes-3 Nos**
+- Processor - Intel Xeon E5-2690 v4 (14 cores) * 2
+- RAM - 128 GB
+- HDD - 500 GB SSD
+- Clock Speed - 2.6GHz
 
-**Bold** and _Italic_ and `Code` text
+5. **Infiniband Switch**
+- MSX6015F-1SFS--- 
+- MellanoxSwitchX®-2 based FDR
+- InfiniBand 1U Switch, 18 ports
 
-[Link](url) and ![Image](src)
-```
+6. **Chassis & Server Model**
+- HP Apollo r2200 12LFF CTO Chassis
+- HP Apollo r2600 24SFF CTO Chassis
+- HP ProLiant XL190r Gen9 CTO Svr
+- HP ProLiant XL170r Gen9 CTO Svr
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SUNYAHPC/Sunya-HPC-Cluster/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
